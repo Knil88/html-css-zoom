@@ -8,12 +8,13 @@
 }
 
 img{
-    width: 12%;
+    width: 16%;
 }
 body{
     height: 100vh;
-    /* DEBUG */
-    background-color: blue;
+    font-family:sans-serif;
+    background-color: black;
+    
     
 }
 #up-banner {
@@ -23,23 +24,26 @@ body{
     
 }
 
-#speaker{
-    /* DEBUG */
-    background-color: yellow;
-    width: 50px;
-    height: 50px;
-    margin-right: 8px;
+.speaker{
+   color:white;
+   margin-right: 15px;
+}
+
+.btn{
+    background-color: #4a4a4a;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    
 }
 
 #extend{
-    /* DEBUG */
-    background-color: bisque;
-    width: 50px;
-    height: 50px;
+    
+   
 
 }
 .monitor {
-   /* DEBUG */
+   
     background-color: black;
     width: 91%;
     height: 100vh;
@@ -51,9 +55,30 @@ body{
 
 .card{
     width: 100%;
+    
+    position: relative;
     /* background-size: cover; */
+
     
     
+}
+.phone,.nome{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+   
+}
+
+.phone{
+bottom:0;
+left: 0;
+}
+.nome {
+    bottom: 0;
+    left: 26px;
 }
 #banner-down{
     height: 70px;
