@@ -1,0 +1,35 @@
+/* Regole Generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.box-zoom{
+    height: 100vh;
+    /* DEBUG */
+    background-color: blue;
+    
+}
+#up-banner {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px 10px;
+    
+}
+
+#speaker{
+    /* DEBUG */
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+}
+
+#extend{
+    /* DEBUG */
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+
+}
