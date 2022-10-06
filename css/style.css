@@ -10,6 +10,7 @@
 img{
     width: 16%;
 }
+   /*Regole Header e body  */
 body{
     height: 100vh;
     font-family:sans-serif;
@@ -42,6 +43,8 @@ body{
    
 
 }
+
+   /* Regole Contenuto */
 .monitor {
    
     background-color: black;
@@ -80,10 +83,12 @@ left: 0;
     left: 26px;
 }
 /* Parte Inferiore */
-#banner-down{
-    height: 70px;
-    background-color: #222222;
+
+footer{
+    height: 130px;
+    background-color: #222222
 }
+
 #bottom {
     display: flex;
     justify-content: space-between;
@@ -91,6 +96,7 @@ left: 0;
     height: 75px;
     width: 100vw;
     background-color: #222222;
+    border-bottom: white solid 1px;
 }
 
 #left-bottom, #center-bottom {
