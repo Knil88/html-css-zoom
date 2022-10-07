@@ -12,7 +12,7 @@ img{
     padding: 2px;
 }
    /*Regole Header e body  */
-body{
+.big-container{
     height: 100vh;
     font-family:sans-serif;
     background-color: black;
