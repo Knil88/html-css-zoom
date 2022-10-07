@@ -9,6 +9,7 @@
 
 img{
     width: 16%;
+    padding: 2px;
 }
    /*Regole Header e body  */
 body{
@@ -48,7 +49,6 @@ body{
 .monitor {
    
     background-color: black;
-    width: 91%;
     height:70vh;
     margin: auto;
     padding: 20px 20px;
